@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0901a759-6620-46ec-9df8-6214087a5bd0" name="Changes" comment="" />
+    <list default="true" id="0901a759-6620-46ec-9df8-6214087a5bd0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jrh/estructurasDecision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jrh/estructurasDecision/bucleFor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,20 +39,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.tipoDatos">
-    <configuration name="main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="openBejercicios" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tipoDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jrh.tipoDatos" />
+  <component name="RunManager" selected="Application.bucleFor">
+    <configuration name="bucleFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jrh.estructurasDecision.bucleFor" />
       <module name="openBejercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jrh.*" />
+          <option name="PATTERN" value="com.jrh.estructurasDecision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,13 +53,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.jrh.funciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jrh.funciones" />
+      <module name="openBejercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jrh.estructurasDecision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.jrh.tipoDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jrh.tipoDatos" />
+      <module name="openBejercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jrh.estructurasDecision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="openBejercicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.main" />
-      <item itemvalue="Application.tipoDatos" />
+      <item itemvalue="Application.bucleFor" />
+      <item itemvalue="Application.com.jrh.funciones" />
+      <item itemvalue="Application.com.jrh.tipoDatos" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.tipoDatos" />
+        <item itemvalue="Application.bucleFor" />
+        <item itemvalue="Application.com.jrh.funciones" />
+        <item itemvalue="Application.com.jrh.tipoDatos" />
       </list>
     </recent_temporary>
   </component>
@@ -91,6 +124,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/openBejercicios$ejercicio.ic" NAME="ejercicio Coverage Results" MODIFIED="1656705747615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jrh.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/openBejercicios$funciones.ic" NAME="funciones Coverage Results" MODIFIED="1656718390184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.jrh.*</FILTER>
     </SUITE>
   </component>
