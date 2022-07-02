@@ -9,7 +9,7 @@ public class estructurasDecision {
         * Tened en cuenta que los textos pueden venir de un array de tipo String. Por ejemplo:
         * String[] nombres = {"", "", "", ""}
         */
-        String[] nombres = {"pedro", "luis", "jose", "viridiana"};
+        String[] nombres = {"Pedro ", "Luis ", "Jose ", "Viridiana"};
         String suma = "";
         for(int i = 0; i<nombres.length; i++){
             suma += nombres[i];
